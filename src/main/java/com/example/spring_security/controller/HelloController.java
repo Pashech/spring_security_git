@@ -15,8 +15,7 @@ public class HelloController {
     }
 
     @GetMapping("/user")
-    public String user(Authentication authentication){
-        System.out.println(authentication.getPrincipal());
+    public String user(){
         return "User";
     }
 
