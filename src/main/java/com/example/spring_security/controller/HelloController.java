@@ -23,4 +23,8 @@ public class HelloController {
     public String admin(){
         return "Admin";
     }
+
+    public String jhhjsfhjh(){
+        return "jdkfgdjng";
+    }
 }
